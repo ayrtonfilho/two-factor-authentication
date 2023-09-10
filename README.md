@@ -27,9 +27,7 @@ Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação 
 
 4. É fundamental ressaltar o uso de uma criptografia mais segura. No exemplo, foi utilizada a codificação base32, no entanto, é importante observar que existem opções de criptografia mais recomendadas e seguras.
 
-5. O projeto também gera uma URL para o QR code, que deve ser escaneado pelo aplicativo de autenticação para configurar a autenticação de dois fatores.
-
-6. O QR code é exibido no terminal para que você consiga escaneia-lo.
+5. O projeto também gera uma URL para o QR code, que deve ser escaneado pelo aplicativo de autenticação para configurar a autenticação de dois fatores. O QR code é exibido no terminal para que você consiga escaneia-lo.
 ![image](https://github.com/ayrtonfilho/two-factor-authentication/assets/71043862/ca4f3c88-0058-4b2b-8f87-3bec82049d5f)
 
 
