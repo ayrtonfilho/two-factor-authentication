@@ -36,7 +36,7 @@ Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação 
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/ayrtonfilho/seu-projeto.git
+   git clone https://github.com/ayrtonfilho/two-factor-authentication.git
    ```
 2. Instale as dependências do projeto:
     ```bash
