@@ -6,7 +6,7 @@ Importante destacar que o código fornecido é apenas uma abordagem simples de c
 
 ## Funcionamento
 
-Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação de dois fatores. Vou apresentar alguns passos que considero importantes acerca do funcionamento:
+Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação de dois fatores. Vou apresentar alguns pontos que considero importantes acerca do projeto:
 
 1. Uma secret (segredo) é gerada de forma segura e deve ser guardada com segurança e sempre deve ser vinculada ao usuário (importante assegurar que o usuário possa em qualquer tempo gerar uma nova secret).
 
