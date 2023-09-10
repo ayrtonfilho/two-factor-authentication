@@ -4,7 +4,7 @@ Esse é um projeto desenvolvido para entender melhor o funcionamento da autentic
 
 Importante destacar que o código fornecido é apenas uma abordagem simples de como funciona a autenticação de dois fatores, desenvolvida com base nos estudos sobre a [speakeasy](https://github.com/speakeasyjs/speakeasy).
 
-## Funcionamento
+## ⭐️ Funcionamento
 
 Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação de dois fatores. Vou apresentar alguns pontos que considero importantes acerca do projeto:
 
@@ -30,11 +30,11 @@ Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação 
 6. O QR code é exibido no terminal para que você consiga escaneia-lo.
 
 
-## Pré-requisitos
+## 🧩 Pré-requisitos
 
 - Node instalado e devidamente configurado no seu dispositivo.
 
-## Como executar
+## 🎉 Como executar
 
 1. Clone o repositório para sua máquina local:
 
