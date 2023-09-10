@@ -12,7 +12,7 @@ Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação 
 
 2. Quando o usuário realizar login com autenticação de dois fatores, ele deve fornecer o código de 6 dígitos gerado por um aplicativo de autenticação, como o Google Authenticator, Microsoft Authenticator, Duo Mobile, etc.
 
-3. O servidor verifica se o código de 6 dígitos é válido ou inválido usando a função `Speakeasy.totp.verify` quando você manda uma requisição do tipo `POST` para `http://localhost:3000/validate`, seguindo o exemplo abaixo:
+3. O servidor verifica se o código de 6 dígitos é válido usando a função `Speakeasy.totp.verify` quando você envia uma requisição do tipo `POST` para `http://localhost:3000/validate`, seguindo o exemplo abaixo:
 
     ```bash
     curl --request POST \
@@ -23,9 +23,12 @@ Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação 
         }'
     ```
 
-4. O projeto também gera uma URL para o QR code, que deve ser escaneado pelo aplicativo de autenticação para configurar a autenticação de dois fatores.
+4. É fundamental ressaltar o uso de uma criptografia mais segura. No exemplo, foi utilizada a codificação base32, no entanto, é importante observar que existem opções de criptografia mais recomendadas e seguras.
 
-5. O QR code é exibido no terminal para que você consiga escaneia-lo.
+5. O projeto também gera uma URL para o QR code, que deve ser escaneado pelo aplicativo de autenticação para configurar a autenticação de dois fatores.
+
+6. O QR code é exibido no terminal para que você consiga escaneia-lo.
+
 
 ## Pré-requisitos
 
