@@ -5,7 +5,7 @@ Esse é um projeto desenvolvido para entender melhor o funcionamento da autentic
 Importante destacar que o código fornecido é apenas uma abordagem simples de como funciona a autenticação de dois fatores, desenvolvida com base nos estudos sobre a [speakeasy](https://github.com/speakeasyjs/speakeasy).
 
 ![carbon](https://github.com/ayrtonfilho/two-factor-authentication/assets/71043862/0d8705ce-c913-40f2-8a73-53ab5aed74b1)
-
+                                
 ## ⭐️ Funcionamento
         
 Este projeto utiliza a biblioteca `speakeasy` para implementar a autenticação de dois fatores. Vou apresentar alguns pontos que considero importantes acerca do projeto:
